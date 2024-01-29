@@ -1,0 +1,9 @@
+<div class="min-h-screen px-3 max-w-[500px] w-full md:w-auto flex pt-[100px] items-center flex-col">
+  <h1 class="text-white font-bold text-2xl">IP4ME</h1>
+  <p id="ipAddress" class="bg-indigo-500 py-1 px-3 rounded mt-2 text-white text-2xl shadow cursor-pointer"><%= @ip %></p>
+  <input type="text" id="ipInput" class="w-full md:w-[500px] rounded mt-5 text-xl shadow text-center" placeholder="0.0.0.0">
+  <div id="ipInfo" class="w-full md:w-[500px] bg-white rounded p-4 mt-4 shadow-md hidden relative mb-5">
+    <button id="toggleView" class="bg-indigo-500 text-white py-1 px-3 rounded absolute top-4 right-4">{ }</button>
+    <div id="dataView"></div>
+  </div>
+</div>
